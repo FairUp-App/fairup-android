@@ -52,7 +52,7 @@ dependencies {
     implementation(libs.compose.material3)
     implementation(libs.compose.ui.tooling.preview)
     debugImplementation(libs.compose.ui.tooling)
-
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
     implementation("androidx.activity:activity-compose:1.9.0")
 
     // Hilt (KSP)
